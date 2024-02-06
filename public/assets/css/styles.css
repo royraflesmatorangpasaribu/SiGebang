@@ -1,0 +1,105 @@
+/* Custom CSS styles */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Add any additional custom styles here */
+/* Fixed navigation when scrolling to Modul section */
+.fixed-scroll {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.navbar {
+    background: linear-gradient(to right, #000046, #1CB5E0);
+}
+
+/* Highlight the active link on hover */
+.navbar-nav .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    color: #fff;
+}
+
+/* Highlight the active link */
+.navbar-nav .nav-link.active {
+    color: white !important;
+}
+
+@media (min-width: 992px) {
+    section {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+#cardContainer:hover #hoaxModal {
+    display: block;
+}
+
+.toggle-switch {
+    display: flex;
+    margin: 20px 0;
+}
+
+.toggle-switch button {
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    flex: 1;
+    text-align: center;
+}
+
+.toggle-switch button.active {
+    background: #007BFF;
+    color: #fff;
+}
+
+#content-container {
+    display: flex;
+    overflow: hidden;
+}
+
+#powerpoint-content,
+#video-content {
+    display: none;
+    width: 100%;
+}
+
+#powerpoint-content iframe,
+#video-content iframe {
+    width: 100%;
+    height: 600px;
+    border: none;
+}
+
+#powerpoint-content {
+    display: flex;
+    justify-content: center; /* Pusat horizontal */
+    align-items: center; /* Pusat vertikal */
+    height: 100vh; /* Gunakan tinggi viewport agar iframe berada di tengah */
+}
+
+#powerpoint-content iframe {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: 100%;
+}
+
