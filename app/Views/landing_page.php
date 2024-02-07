@@ -15,7 +15,7 @@
     <!-- Blue navbar at the top (fixed) -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <a class="navbar-brand" href="#">
-            <span style="background: linear-gradient(135deg, #FF0000, #FFFFFF); -webkit-background-clip: text; color: transparent; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">SIDEBANG</span>
+            <span style="background: linear-gradient(135deg, #FF0000, #FFFFFF); -webkit-background-clip: text; color: transparent; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">SIGEBANG</span>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -50,7 +50,7 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src=<?=base_url("assets/images/1.png")?> class="d-block w-100" alt="Image 1">
+                    <img src=<?=base_url("assets/images/1.jpg")?> class="d-block w-100" alt="Image 1">
                 </div>
                 <div class="carousel-item">
                     <img src=<?=base_url("assets/images/2.png")?> class="d-block w-100" alt="Image 2">
@@ -99,7 +99,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Berita 1</h5>
                             <p class="card-text" style="text-align: justify;">Gebang</p>
-                            <p><a href="#" id="hoaxTitle" data-toggle="modal" data-target="#hoaxModal">View More</a></p>
+                            
                         </div>
                     </div>
                 </div>
@@ -109,7 +109,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Berita 2</h5>
                             <p class="card-text" style="text-align: justify;">Gebang</p>
-                            <p><a href="#" id="hoaxTitle" data-toggle="modal" data-target="#hoaxsila1">View More</a></p>
+                         
                         </div>
                     </div>
                 </div>
@@ -119,7 +119,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Berita 3</h5>
                             <p class="card-text" style="text-align: justify;">Gebang</p>
-                            <p><a href="#" id="hoaxTitle" data-toggle="modal" data-target="#dutapancasila">View More</a></p>
+                           
                         </div>
                     </div>
                 </div>
@@ -130,7 +130,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Berita 4</h5>
                             <p class="card-text" style="text-align: justify;">Gebang</p>
-                            <p><a href="#" id="hoaxTitle" data-toggle="modal" data-target="#penggunainternet">View More</a></p>
+                            
                         </div>
                     </div>
                 </div>
@@ -140,7 +140,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Berita 5</h5>
                             <p class="card-text" style="text-align: justify;">Gebang</p>
-                            <p><a href="#" id="hoaxTitle" data-toggle="modal" data-target="#hoaxpemecah">View More</a></p>
+                            
                         </div>
                     </div>
                 </div>
@@ -150,7 +150,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Berita 6</h5>
                             <p class="card-text" style="text-align: justify;">Gebang</p>
-                            <p><a href="#" id="hoaxTitle" data-toggle="modal" data-target="#temuanhoax">View More</a></p>
+                           
                         </div>
                     </div>
                 </div>
@@ -344,30 +344,18 @@
    <!-- Add a section for the "Contact" page -->
     <section id="contact">
         <div class="container">
-        <h3>Untuk Melihat Data Penduduk Silahkan Login</h3>
+        <center><h3>Untuk Melihat Data Penduduk Silahkan Login</h3></center>
             <div class="card p-3 shadow">
-                <div class="row">
-                    <div class="col-md-4">
-                        <!-- <img src="assets/images/foto_royraflesmatorangpasaribu.jpg" class="img-fluid rounded-circle" alt="My Photo" style="height: 250px; width: 250px; border-radius: 50%; object-fit: cover; object-position: 0 -8px;"  border="2px" > -->
-                    </div>
-                    <div class="col-md-6">
-                        
-                        <div class="contact-container">
-                        <h2>Login</h2>
-                        <form action="#" method="post">
-                            <div class="input-group">
-                                <label for="username">Username</label>
-                                <input type="text" id="username" name="username" required>
-                            </div>
-                            <div class="input-group">
-                                <label for="password">Password</label>
-                                <input type="password" id="password" name="password" required>
-                            </div>
-                            <button type="submit">Login</button>
-                        </form>
-                    </div>
-                    </div>
-                </div>
+            <div class="login-container">
+        <img src="assets/images/data.jpg" alt="Logo" />
+        <form>
+            <input type="text" placeholder="Username" required><br>
+            <input type="password" placeholder="Password" required><br>
+            <button type="submit">Login</button>
+        </form>
+        </div>
+                   
+               
             </div>
         </div>
     </section>

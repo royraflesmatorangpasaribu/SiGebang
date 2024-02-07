@@ -3,49 +3,49 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-
-.contact-container {
+  .login-container {
     background-color: #fff;
-    padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.contact-container h2 {
-    margin-top: 0;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-}
-
-.input-group {
-    margin-bottom: 15px;
-}
-
-.input-group label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-.input-group input {
-    width: 100%;
+    position: relative;
+  }
+  .login-container img {
+    width: 500px;
+    height: 250px;
+    margin-bottom: 20px;
+    animation: float 3s ease-in-out infinite;
+  }
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  input[type="text"], input[type="password"] {
+    width: 50%;
     padding: 10px;
-    border-radius: 4px;
+    margin-bottom: 10px;
+    border-radius: 5px;
     border: 1px solid #ccc;
-}
-
-button {
-    display: block;
-    width: 100%;
+    outline: none;
+  }
+  button {
+    width: 50%;
     padding: 10px;
     border: none;
-    border-radius: 4px;
-    background-color: #007bff;
-    color: #fff;
+    background-color: #1c1a98;
+    color: white;
+    border-radius: 5px;
     cursor: pointer;
-}
-
-button:hover {
-    background-color: #0056b3;
-}
+    transition: background-color 0.3s;
+  }
+  button:hover {
+    background-color: #45a049;
+  }
 
 /* Add any additional custom styles here */
 /* Fixed navigation when scrolling to Modul section */
