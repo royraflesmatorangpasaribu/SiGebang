@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SIDEBANG - Sistem Informasi Desa Gebang</title>
+    <title>SIGEBANG - Sistem Informasi Gebang</title>
     <!-- Add Bootstrap CSS link -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- Add custom CSS -->
@@ -15,7 +15,7 @@
     <!-- Blue navbar at the top (fixed) -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <a class="navbar-brand" href="#">
-            <span style="background: linear-gradient(135deg, #FF0000, #FFFFFF); -webkit-background-clip: text; color: transparent; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">SIDEBANG</span>
+            <span style="background: linear-gradient(135deg, #FF0000, #FFFFFF); -webkit-background-clip: text; color: transparent; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">SIGEBANG</span>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -50,13 +50,13 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src=<?=base_url("assets/images/1.png")?> class="d-block w-100" alt="Image 1">
+                    <img src=<?=base_url("assets/images/1.jpg")?> class="d-block w-100" alt="Image 1">
                 </div>
                 <div class="carousel-item">
                     <img src=<?=base_url("assets/images/2.png")?> class="d-block w-100" alt="Image 2">
                 </div>
                 <div class="carousel-item">
-                    <img src=<?=base_url("assets/images/3.png")?> class="d-block w-100" alt="Image 3">
+                    <img src=<?=base_url("assets/images/3.jpg")?> class="d-block w-100" alt="Image 3">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
@@ -81,21 +81,17 @@
                 </div>
                 <br><br>
                 <div class="col-md-6">
-                    <h3>Kepala Desa Gebang</h3>
-                        <li>Nama &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: </li>
-                        <li>Email: royraflmp@gmail.com</li>
-                        <li>Telepon: 082282419941</li>
-                        <li>Alamat: Jl. Bumi Manti no 1</li>
-                    </ul>
+                    <P align="justify">Desa Gebang Desa Gebang Kecamatan Teluk Pandan Kabupaten Pesawaran Lampung dulu dikenal sebagai bagian dari Kecamatan Padang Cermin Desa Gebang sangat terkenal dengan obyek wisata dan konservasi bakau yang luas. Kondisi demikain ditunjang oleh ketersediaan track pengamatan di sepanjang pantai dan bahkan masuk ke area hutan bakau, menjadikan daerah ini menjadi salah satu destinasi wisata alam/edukasi penting di provinsi lampung.WIsata adalah tentang membangun hal yang unik, berbeda, dan indah. Seluruhnya ada di desa ini wisata yang unik, berbeda dengan banyak obyek wisata lain dan juga sangat indah. Laut yang tenang, hutan bakau tersusun rapi, track pengamatan panjang dan pengelolaan wisata yang profesional menjadi salah satu keunggulan desa ini.</P>
                 </div>
                 <br>
                 <div class="col-md-6">
-                    <h3>Desa Gebang</h3>
-                        <p>penjelasan desa gebang </p>
-                        
+                    <h3>Kepala Desa Gebang</h3>
+                        <li>Nama    : </li>
+                        <li>Periode : </li>    
                     </ul>
                 </div>
             </div>
+            <br><br><br>
             <div class="d-flex flex-wrap justify-content-between">
                 <div class="col-md-4 mb-4">
                     <div class="card shadow">
@@ -103,7 +99,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Berita 1</h5>
                             <p class="card-text" style="text-align: justify;">Gebang</p>
-                            <p><a href="#" id="hoaxTitle" data-toggle="modal" data-target="#hoaxModal">View More</a></p>
+                            
                         </div>
                     </div>
                 </div>
@@ -113,7 +109,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Berita 2</h5>
                             <p class="card-text" style="text-align: justify;">Gebang</p>
-                            <p><a href="#" id="hoaxTitle" data-toggle="modal" data-target="#hoaxsila1">View More</a></p>
+                         
                         </div>
                     </div>
                 </div>
@@ -123,7 +119,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Berita 3</h5>
                             <p class="card-text" style="text-align: justify;">Gebang</p>
-                            <p><a href="#" id="hoaxTitle" data-toggle="modal" data-target="#dutapancasila">View More</a></p>
+                           
                         </div>
                     </div>
                 </div>
@@ -134,7 +130,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Berita 4</h5>
                             <p class="card-text" style="text-align: justify;">Gebang</p>
-                            <p><a href="#" id="hoaxTitle" data-toggle="modal" data-target="#penggunainternet">View More</a></p>
+                            
                         </div>
                     </div>
                 </div>
@@ -144,7 +140,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Berita 5</h5>
                             <p class="card-text" style="text-align: justify;">Gebang</p>
-                            <p><a href="#" id="hoaxTitle" data-toggle="modal" data-target="#hoaxpemecah">View More</a></p>
+                            
                         </div>
                     </div>
                 </div>
@@ -154,7 +150,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Berita 6</h5>
                             <p class="card-text" style="text-align: justify;">Gebang</p>
-                            <p><a href="#" id="hoaxTitle" data-toggle="modal" data-target="#temuanhoax">View More</a></p>
+                           
                         </div>
                     </div>
                 </div>
@@ -306,14 +302,14 @@
         <div class="container">
             <h2 class="text-center">Visi Misi</h2>
             <div class="toggle-switch">
-                <button id="powerpoint-button" class="active">Power Point</button>
-                <button id="video-button">Video</button>
+                <!-- <button id="powerpoint-button" class="active">Power Point</button>
+                <button id="video-button">Video</button> -->
             </div>
             
             <div id="content-container">
                 <div id="powerpoint-content">
                     <!-- <p style="text-align: justify;"><b>Note</b> : Pada Power Point jika menggunakan handphone(HP) swipe layar di slide untuk ke slide berikutnya, namun jika mengakses dengan komputer atau labtop cukup clik di area slide untuk pindah ke slide berikutnya.</p> -->
-                    <iframe src="https://docs.google.com/presentation/d/1sgYMQqFuCfkQaXe2SXqjE9cuqiewBiyEW-K1moL9944/embed?start=false&loop=false&delayms=3000" frameborder="0" style="width: 100%; height: 100%;" allowfullscreen></iframe>
+                    <iframe src="https://docs.google.com/presentation/d/1wsgmz6hMMyJ9LfR5BsaIm634vJbk9VtSFGROHhSVcKY/embed?start=false&loop=false&delayms=3000" frameborder="0" style="width: 100%; height: 100%;" allowfullscreen></iframe>
                 </div>
                 <div id="video-content">
                     <video id="video" controls width="100%" height="100%">
@@ -348,17 +344,18 @@
    <!-- Add a section for the "Contact" page -->
     <section id="contact">
         <div class="container">
-            <h2 class="text-center mb-4">Data Penduduk</h2>
+        <center><h3>Untuk Melihat Data Penduduk Silahkan Login</h3></center>
             <div class="card p-3 shadow">
-                <div class="row">
-                    <div class="col-md-4">
-                        <!-- <img src="assets/images/foto_royraflesmatorangpasaribu.jpg" class="img-fluid rounded-circle" alt="My Photo" style="height: 250px; width: 250px; border-radius: 50%; object-fit: cover; object-position: 0 -8px;"  border="2px" > -->
-                    </div>
-                    <div class="col-md-6">
-                        <h3>Untuk Melihat Data Penduduk Silahkan Login</h3>
-                        
-                    </div>
-                </div>
+            <div class="login-container">
+        <img src="assets/images/data.jpg" alt="Logo" />
+        <form>
+            <input type="text" placeholder="Username" required><br>
+            <input type="password" placeholder="Password" required><br>
+            <button type="submit">Login</button>
+        </form>
+        </div>
+                   
+               
             </div>
         </div>
     </section>
