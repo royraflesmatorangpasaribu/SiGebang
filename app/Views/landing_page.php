@@ -32,7 +32,7 @@
                     <a class="nav-link" href="#solve" style="color: black">Visi Misi</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact" style="color: black">Data Penduduk</a>
+                    <a class="nav-link" href="#contact" style="color: black">Profile Desa</a>
                 </li>
             </ul>
         </div>
@@ -86,7 +86,7 @@
                 <br>
                 <div class="col-md-6">
                     <h3>Kepala Desa Gebang</h3>
-                        <li>Nama    : </li>
+                        <li>Nama    : Anik Rekayani, S.Pd, I</li>
                         <li>Periode : </li>    
                     </ul>
                 </div>
@@ -95,30 +95,30 @@
             <div class="d-flex flex-wrap justify-content-between">
                 <div class="col-md-4 mb-4">
                     <div class="card shadow">
-                        <img src="assets/images/4.jpg" class="card-img-top" alt="Material 1">
+                        <img src="assets/images/dusun.jpg" class="card-img-top" alt="Material 1">
                         <div class="card-body">
-                            <h5 class="card-title">Berita 1</h5>
-                            <p class="card-text" style="text-align: justify;">Gebang</p>
+                            <h5 class="card-title">Dusun Desa Gebang</h5>
+                            <p class="card-text" style="text-align: justify;">Di Desa Gebang terbagi menjadi 6 Dusun, dan masing-masing dusun memiliki nama yaitu : <br> 1. Dusun 1 (Tanjung Jaya)  <br> 2. Dusun 2 (Gebang Hilir)  <br> 3. Dusun 3 (Tanjung Induk)  <br> 4. Dusun 4 (Sinar Harapan)  <br> 5. Dusun 5 (Suka Angung)  <br> 6. Dusun 6 (Seribu)</p>
                             
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 mb-4">
                     <div class="card shadow">
-                        <img src="assets/images/5.jpg" class="card-img-top" alt="Material 2">
+                        <img src="assets/images/kadus.jpg" class="card-img-top" alt="Material 2">
                         <div class="card-body">
-                            <h5 class="card-title">Berita 2</h5>
-                            <p class="card-text" style="text-align: justify;">Gebang</p>
+                            <h5 class="card-title">Kepala Dusun Desa Gebang</h5>
+                            <p class="card-text" style="text-align: justify;"> Berikut ini Kepala Dusun yang saat ini memimpin di dusun-dusun yang ada di Desa Gebang<br>1. Dusun 1 : Ibu Indri  <br> 2. Dusun 2 : Bapak Eko  <br> 3. Dusun 3 : Bapak Andi <br> 4. Dusun 4 : Bapak Sanak <br> 5. Dusun 5 : Ibu yuli <br> 6. Dusun 6 : Bapak Atep</p>
                          
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 mb-4">
                     <div class="card shadow">
-                        <img src="assets/images/dutapancasila.jpg" class="card-img-top" alt="Material 3">
+                        <img src="assets/images/lokasi.jpg" class="card-img-top" alt="Material 3">
                         <div class="card-body">
-                            <h5 class="card-title">Berita 3</h5>
-                            <p class="card-text" style="text-align: justify;">Gebang</p>
+                            <h5 class="card-title">Lokasi Desa Gebang</h5>
+                            <p class="card-text" style="text-align: justify;">Desa Gebang merupakan desa yang sangat luas, berikut ini adalah peta untuk mengarahkan menuju Desa Gebang yang ada di Kabupaten Pesawaran, Provinsi Lampung, Klik link di bawah ini <br><a href="https://maps.app.goo.gl/1CgsL4DHY8hKZ4Ku9">Lokasi Desa Gebang, Kabupaten Pesawaran, Provinsi Lampung</a></p>
                            
                         </div>
                     </div>
@@ -126,30 +126,30 @@
                 <!-- Add more cards for materials here -->
                 <div class="col-md-4 mb-4">
                     <div class="card shadow">
-                        <img src="assets/images/7.jpg" class="card-img-top" alt="Material 4">
+                        <img src="assets/images/mangrove.jpg" class="card-img-top" alt="Material 4">
                         <div class="card-body">
-                            <h5 class="card-title">Berita 4</h5>
-                            <p class="card-text" style="text-align: justify;">Gebang</p>
+                            <h5 class="card-title">Hutan Mangrove Petengoran</h5>
+                            <p class="card-text" style="text-align: justify;">Ekowisata ini dikelola kelompok Pelestari Mangrove Petengoran dan Badan Usaha Milik Desa [BUMDes] Makmur Jaya. Sang ketua, Toni Yunizar, menjelaskan ekowisata seluas 113 hektar tersebut sudah dilegalkan berdasarkan Peraturan Desa No. 1 Tahun 2016. Awalnya, pelestarian mangrove dilakukan karena adanya penyakit malaria di Desa Gebang. Bahkan, Kecamatan Padang Cermin dikategorikan sebagai zona merah, tahun 2011.</p>
                             
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 mb-4">
                     <div class="card shadow">
-                        <img src="assets/images/8.jpg" class="card-img-top" alt="Material 5">
+                        <img src="assets/images/pantai.jpg" class="card-img-top" alt="Material 5">
                         <div class="card-body">
-                            <h5 class="card-title">Berita 5</h5>
-                            <p class="card-text" style="text-align: justify;">Gebang</p>
+                            <h5 class="card-title">Pantai Dewi Mandapa</h5>
+                            <p class="card-text" style="text-align: justify;">Pantai Dewi Mandapa terletak di wilayah Padang Cermin. Lokasinya di Provinsi Lampung, Kabupaten Pesawaran, Kecamatan Teluk pandan, Desa Gebang. Letak pantai ini di Dermaga Ketapang, tengah-tengah jalur penyeberangan dari Pantai Sari Ringgung ke Pulau Pahawang. Rute yang harus dilewati adalah melalui jalanan kantor pemerintah Kota Bandar Lampung. Di pantai ini kita dapat melihat pasir timbul yang sangat indah</p>
                             
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 mb-4">
                     <div class="card shadow">
-                        <img src="assets/images/9.jpg" class="card-img-top" alt="Material 6">
+                        <img src="assets/images/tegalmas.jpg" class="card-img-top" alt="Material 6">
                         <div class="card-body">
-                            <h5 class="card-title">Berita 6</h5>
-                            <p class="card-text" style="text-align: justify;">Gebang</p>
+                            <h5 class="card-title">Pulau Tegal Mas</h5>
+                            <p class="card-text" style="text-align: justify;">Pulau satu ini terletak di Teluk Pandan, Kabupaten Pesawaran, Lampung. Keindahan yang dimiliki oleh pulau eksotis ini seakan siap membius siapa saja. Bahkan ada yang bilang bahwa pulau ini mirip sekali dengan penampakan di Maldives. Untuk mengunjungi atau mendapatkan informasi lebih jelas mengenai Pulau Tegal dapat mengunjungi web Pulau Tegal Mas berikut ini klik tulisan di bawah ini <br><a href="https://www.pulautegalmas.com/">Pulau Tegal Mas</a></p>
                            
                         </div>
                     </div>
@@ -344,24 +344,25 @@
    <!-- Add a section for the "Contact" page -->
     <section id="contact">
         <div class="container">
-        <center><h3>Untuk Melihat Data Penduduk Silahkan Login</h3></center>
+        <center><h3>Profile Desa Gebang</h3></center>
             <div class="card p-3 shadow">
             <div class="login-container">
-        <img src="assets/images/data.jpg" alt="Logo" />
-        <form>
-            <input type="text" placeholder="Username" required><br>
-            <input type="password" placeholder="Password" required><br>
-            <button type="submit">Login</button>
-        </form>
+            <video id="video" controls width="100%" height="100%">
+                        <source src="assets/images/profilevid.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+    
         </div>
                    
-               
+               <div>
+                <p>Hubungi kami jika ada pertanyaan @desagebangpesawaran@gmail.com
+               </div>
             </div>
         </div>
     </section>
 
     <footer class="text-center py-3">
-        <p>&copy; KKN Universitas Lampung 2024 Periode 1</p>
+        <p>&copy; PEMERINTA DESA GEBANG 2024</p>
     </footer>
 
     <!-- Include Bootstrap and jQuery JavaScript -->
